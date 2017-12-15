@@ -333,3 +333,60 @@ In one example presented in the Equihash paper, solving a version of the problem
  with 700 megabytes took about 15 seconds, while solving the same problem with
  250 megabytes took 1,000 times as long.
 
+## Casper
+
+from Casper the Friendly Finality Gadget
+
+Casper is a partial consensus mechanism combining proof of stake algorithm
+ research and Byzantine fault tolerant consensus theory.<br>
+There are two major schools of thought in PoS design. The first, *chain-based
+ proof of stake*, mimics proof of work mechanics and features a chain of blocks
+ and simulates mining by pseudorandomly assigning the right to create new blocks
+ to stakeholders (Peercoin, Blackcoin, Iddo Bentov's work). The other school,
+ *Byzantine fault tolerant* (BFT) based proof of stake, is based on a
+ thirty-year-old body of research into BFT consensus algorithms such as PBFT
+ (Tendermint).<br>
+Casper the Friendly Finality Gadget is an overlay atop a *proposal
+ mechanism*---a mechanism which proposes blocks. Casper provides safety, but
+ liveness depends on the chosen proposal mechanism. That is, if attackers wholly
+ control the proposal mechanism, Casper protects against finalizing two
+ conflicting checkpoints, but the attackers could prevent Casper from finalizing
+ any future checkpoints.<br>
+new features - Accountability, Dynamic validators, Defenses, Modular overlay<br>
+Rather than deal with the full block tree, for efficiency purposes Casper only
+ considers the subtree of *checkpoints* forming the *checkpoint tree*.<br>
+Each validator has a *deposit*; when a validator joins, its deposit is the
+ number of deposited coins. After joining, each validator's deposit rises and
+ falls with rewards and penalties. Proof of stake's security derives from the
+ size of the deposits, not the number of validators.
+
+*justified*, *finalized*<br>
+If a validator violates either slashing condition, the evidence of the violation
+ can be included into the blockchain as a transaction, at which point the
+ validator's entire deposit is taken away with a small "finder's fee" given to
+ the submitter of the evidence transaction. In current Ethereum, stopping the
+ enforcement of a slashing condition requires a successful 51% attack on
+ Ethereum's proof-ofwork block proposer.<br>
+two fundamental properties: *accountable safety* and *plausible liveness*.
+ Accountable safety means that two conflicting checkpoints cannot both be
+ finalized unless ≥ ⅓ of validators violate a slashing condition (meaning at
+ least one third of the total deposit is lost). Plausible liveness means that,
+ regardless of any previous events (e.g., slashing events, delayed blocks,
+ censorship attacks, etc.), if ≥ ⅔ of validators follow the protocol, then it's
+ always possible to finalize a new checkpoint without any validator violating a
+ slashing condition.<br>
+To avoid this, we introduce a novel, correct by construction, fork choice rule:
+ FOLLOW THE CHAIN CONTAINING THE JUSTIFIED CHECKPOINT OF THE GREATEST HEIGHT.
+ This fork choice rule is correct by construction because it follows from the
+ plausible liveness proof.<br>
+The *dynasty of block b* is the number of finalized checkpoints in the chain
+ from root to the parent of block *b*. We call *d* + 2 this validator's *start
+ dynasty*, DS(v) / *end dynasty*, DE(v). Once validator v leaves the validator
+ set, the validator's public key is forever forbidden from rejoining the
+ validator set. This removes the need to handle multiple start/end dynasties for
+ a single identifier.<br>
+At the start of the end dynasty, the validator's deposit is locked for a long
+ period of time, called the *withdrawal delay* (think "four months' worth of
+ blocks"), before the deposit is withdrawn. If, during the withdrawal delay, the
+ validator violates any commandment, the deposit is slashed.
+

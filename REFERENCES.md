@@ -1,6 +1,11 @@
 
 * [Blockchain Consensus Protocols in the Wild](https://arxiv.org/abs/1707.01873) by Christian Cachin and Marko Vukolić (IBM Research, 2017-07-07)
 * [Understanding Blockchain Consensus Models](https://www.persistent.com/wp-content/uploads/2017/04/WP-Understanding-Blockchain-Consensus-Models.pdf) by Dr. Arati Baliga (Persistent Systems, April 2017)
+* [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+
+* [Yet Another Visit to Paxos](https://cachin.com/cc/papers/pax.pdf)
+* [From Byzantine Consensus to BFT State Machine Replication: A Latency-Optimal Transformation](http://www.navigators.di.fc.ul.pt/wiki/Publication:Joaosousa2011)
+* [State Machine Replication for the Masses with BFT-SMART](http://repositorio.ul.pt/handle/10455/6897)
 
 to read
 * J. A. Garay, A. Kiayias, and N. Leonardos. The bitcoin backbone protocol: Analysis and applications. In Advances in Cryptology: Eurocrypt 2015, volume 9057 of Lecture Notes in Computer Science, pages 281–310. Springer, 2015.
@@ -69,4 +74,21 @@ to read
 * F. Armknecht, G. O. Karame, A.Mandal, F. Youssef, and E. Zenner. Ripple: Overview and outlook. In M. Conti, M. Schunter, and I. G. Askoxylakis, editors, Proc. Trust and Trustworthy Computing (TRUST), volume 9229 of Lecture Notes in Computer Science, pages 163–180. Springer, 2015.
 * S. Popov. The tangle. White paper, available at https://iota.org/IOTA_Whitepaper. pdf, 2016.
 * Y. Lewenberg, Y. Sompolinsky, and A. Zohar. Inclusive block chain protocols. In R. Böhme and T. Okamoto, editors, Proc. Financial Cryptography and Data Security (FC 2015), volume 8975 of Lecture Notes in Computer Science, pages 528–547. Springer, 2015.
+
+* [Elliptic Curve Cryptography for those who are afraid of maths](https://www.lapsedordinary.net/files/ECC_BSidesLDN_2015.pdf)
+* [How the Bitcoin protocol actually works](https://gotocon.com/dl/goto-cph-sept-2014/slides/JanMller_HowTheBitcoinProtocolActuallyWorks.pdf)
+* [Applied Craptography: Bitcoin and Other Cryptocurrencies](http://www-inst.cs.berkeley.edu/~cs161/fa16/slides/lec_bitcoin.pdf)
+* Proof of Stake: How I Learned to Love Weak Subjectivity https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/
+* https://github.com/ethereum/viper
+
+Casper
+* Pass, R. & Shi, E. Fruitchains: A fair blockchain. In Proceedings of the ACM Symposium on Principles of Distributed Computing, PODC 2017, 315–324 (ACM, New York, NY, USA, 2017). URL http://doi.acm.org/10.1145/3087801.3087809
+* Introducing dfinity crypto techniques (2017). URL https://dfinity.org/pdf-viewer/pdfs/viewer.html?file=../library/intro-dfinity-crypto.pdf
+* King, S. & Nadal, S. Ppcoin: Peer-to-peer crypto-currency with proof-of-stake 19 (2012). URL https://decred.org/research/king2012.pdf https://web.archive.org/save/https://decred.org/research/king2012.pdf
+* Vasin, P. Blackcoin’s proof-of-stake protocol v2 (2014). URL http://blackcoin.co/blackcoin-pos-protocol-v2-whitepaper.pdf
+* Bentov, I., Gabizon, A. & Mizrahi, A. Cryptocurrencies without proof of work. In Sion, R. (ed.) International Conference on Financial Cryptography and Data Security, 142–157 (Springer, 2016). URL http://www.cs.technion.ac.il/~idddo/CoA.pdf
+* Kwon, J. Tendermint: Consensus without mining (2014). URL https://tendermint.com/static/docs/tendermint.pdf
+* Chen, J. & Micali, S. ALGORAND: the efficient and democratic ledger. CoRR abs/1607.01341 (2016). URL http://arxiv.org/abs/1607.01341
+* Buterin, V. Minimal slashing conditions (2017). URL https://medium.com/@VitalikButerin/minimal-slashing-conditions-20f0b500fc6c
+* Sompolinsky, Y. & Zohar, A. Accelerating bitcoin’s transaction processing. fast money grows on trees, not chains. 2013 (2013). URL http://eprint.iacr.org/2013/881
 
