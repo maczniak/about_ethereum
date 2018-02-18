@@ -1,0 +1,21 @@
+
+* https://en.wikipedia.org/wiki/Ricardian_contract
+ * papers - http://iang.org/papers/fc7.html http://iang.org/papers/ricardian_contract.html
+ * introduction - http://iang.org/ricardian/
+* opentransactions
+ * http://opentransactions.org/wiki/index.php/Sample_Currency_Contract
+ * http://www.opentransactions.org/open-transactions.pdf
+* OpenBazaar
+ * https://gist.github.com/drwasho/a5380544c170bdbbbad8#example
+* Monax with smart contracts
+* Askemos
+ * http://ball.askemos.org/A0cd6168e9408c9c095f700d7c6ec3224/?_v=search&_id=1856&_go=5
+ * http://ball.askemos.org/Abb8999dd38524dcc113f977d378a9ee0?_id=3145&_v=footnote
+* Barclays' Smart Contract Templates
+ * https://arxiv.org/pdf/1608.00771.pdf
+* R3 CEV's Corda
+ * http://r3cev.com/s/R3-Smart-Contract-Templates-Summit-_FINAL.pdf
+ * http://www.ibtimes.co.uk/r3-extends-collaboration-smart-contract-templates-summit-1570121
+* webfunds
+ * http://webfunds.org/guide/ricardian_implementations.html
+

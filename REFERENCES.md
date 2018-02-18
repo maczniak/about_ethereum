@@ -6,6 +6,9 @@
 * [Yet Another Visit to Paxos](https://cachin.com/cc/papers/pax.pdf)
 * [From Byzantine Consensus to BFT State Machine Replication: A Latency-Optimal Transformation](http://www.navigators.di.fc.ul.pt/wiki/Publication:Joaosousa2011)
 * [State Machine Replication for the Masses with BFT-SMART](http://repositorio.ul.pt/handle/10455/6897)
+* [Slasher: A Punitive Proof-of-Stake Algorithm](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/)
+* [Practical Byzantine Fault Tolerance](http://pmg.csail.mit.edu/papers/osdi99.pdf) by Miguel Castro and Barbara Liskov (1999)
+* [Consensus Compare: Casper vs. Tendermint](https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae)
 
 to read
 * J. A. Garay, A. Kiayias, and N. Leonardos. The bitcoin backbone protocol: Analysis and applications. In Advances in Cryptology: Eurocrypt 2015, volume 9057 of Lecture Notes in Computer Science, pages 281–310. Springer, 2015.
@@ -24,7 +27,6 @@ to read
 * C. Cachin. Yet another visit to Paxos. Research Report RZ 3754, IBM Research, Nov. 2009.
 * B. Liskov. From viewstamped replication to Byzantine fault tolerance. In B. Charron-Bost, F. Pedone, and A. Schiper, editors, Replication: Theory and Practice, volume 5959 of Lecture Notes in Computer Science, pages 121–149. Springer, 2010.
 * T. D. Chandra, R. Griesemer, and J. Redstone. Paxos made live: An engineering perspective. In Proc. 26th ACM Symposium on Principles of Distributed Computing (PODC), pages 398–407, 2007.
-* [Practical Byzantine Fault Tolerance](http://pmg.csail.mit.edu/papers/osdi99.pdf) by Miguel Castro and Barbara Liskov (1999)
 * M. Castro and B. Liskov. Practical Byzantine fault tolerance and proactive recovery. ACM Transactions on Computer Systems, 20(4):398–461, Nov. 2002.
 * [XFT: Practical Fault Tolerance beyond Crashes](https://www.usenix.org/system/files/conference/osdi16/osdi16-liu.pdf) by Shengyun Liu, Paolo Viotti, Cristian Cachin, Vivian Quema, Marko Vukolic (2016)
 * [The Ripple Protocol Consensus Algorithm](https://ripple.com/files/ripple_consensus_whitepaper.pdf) by David Schwartz, Noah Youngs and Arthur Britto (2014)
@@ -91,4 +93,23 @@ Casper
 * Chen, J. & Micali, S. ALGORAND: the efficient and democratic ledger. CoRR abs/1607.01341 (2016). URL http://arxiv.org/abs/1607.01341
 * Buterin, V. Minimal slashing conditions (2017). URL https://medium.com/@VitalikButerin/minimal-slashing-conditions-20f0b500fc6c
 * Sompolinsky, Y. & Zohar, A. Accelerating bitcoin’s transaction processing. fast money grows on trees, not chains. 2013 (2013). URL http://eprint.iacr.org/2013/881
+* provably fair gambling protocols
+* https://people.csail.mit.edu/rivest/pubs/RST01.pdf Monero ring signature
+* MATRIX http://www.aitimes.kr/news/articleView.html?idxno=11207
 
+* https://github.com/decrypto-org/blockchain-papers
+* https://ethereumbook.info
+* https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki
+* https://en.bitcoin.it/wiki/Identity_protocol_v1
+* https://en.wikipedia.org/wiki/Demurrage_(currency)
+* https://en.bitcoin.it/wiki/Proof_of_burn
+* https://chain.com https://seq.com
+* https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki
+* https://github.com/bitcoin/bips/blob/master/bip-0101.mediawiki
+* https://montreal2015.scalingbitcoin.org/ simulation
+* Mastercoin
+* https://en.bitcoin.it/wiki/Timelock https://coinjournal.net/checksequenceverify-what-is-it-and-why-is-it-relevant/ https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki
+* https://nper.io/NPER_KR.pdf
+* https://bitcoin.org/en/developer-guide https://github.com/bitcoin-dot-org/bitcoin.org/tree/master/_includes/devdoc https://slushpool.com/help/manual/stratum-protocol
+* https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki
+ 

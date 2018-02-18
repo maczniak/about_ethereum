@@ -390,3 +390,5 @@ At the start of the end dynasty, the validator's deposit is locked for a long
  blocks"), before the deposit is withdrawn. If, during the withdrawal delay, the
  validator violates any commandment, the deposit is slashed.
 
+Gridcoin (GRC) - Proof-of-Stake and Proof-of-Research
+
